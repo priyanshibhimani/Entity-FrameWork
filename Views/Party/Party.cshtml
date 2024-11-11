@@ -1,0 +1,63 @@
+﻿ @model IEnumerable<ProductManagemet.Models.Party>
+
+@{
+    ViewData["Title"] = "Party List";
+}
+@{
+    var searchTerm = Context.Request.Query["searchTerm"];
+}
+@if (TempData["Error"] != null)
+
+
+
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Sorry!</strong> @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<span>
+    <h2>@ViewData["Title"]</h2>
+    </br>
+    <a asp-action="Create" class="btn btn-outline-primary">Add New Party</a>
+  
+</span>
+
+
+
+<form method="get">
+    <br />
+    <input type="text" name="searchTerm" value="@searchTerm" class="form-control" placeholder="Search by Party Name" style="width:280px;float:left;" />
+        <button type="submit" class="btn btn-outline-secondary" style="float:left;margin-left:10px">Search</button>
+    <a asp-controller="Party" asp-action="Party" class="btn btn-outline-secondary" style="float:left;margin-left:10px">clear</a>
+   
+   
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Party Name
+                <a asp-action="Party" asp-route-sortOrder="name_asc" asp-route-searchTerm="@ViewBag.CurrentFilter" style="text-decoration:none;">&#8593;</a>
+                <a asp-action="Party" asp-route-sortOrder="name_desc" asp-route-searchTerm="@ViewBag.CurrentFilter" style="text-decoration:none;">&#8595;</a>
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var party in Model)
+        {
+            <tr>
+                <td>@party.PartyName</td>
+
+                <td>
+                    <a asp-action="Details" asp-route-id="@party.PartyId" class="btn btn-outline-success">Details</a>
+                    <a asp-action="Edit" asp-route-id="@party.PartyId" class="btn btn-outline-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@party.PartyId" class="btn btn-outline-danger">Delete</a>            
+                    <a asp-controller="Invoice" asp-action="Index" asp-route-PartyId="@party.PartyId" class="btn btn-primary">Create Invoice</a>
+
+</td>
+            </tr>
+        }
+    </tbody>
+</table>

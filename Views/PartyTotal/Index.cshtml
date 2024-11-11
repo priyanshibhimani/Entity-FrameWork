@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ProductManagemet.Models.PartyTotal>
+
+@{
+    ViewData["Title"] = "Invoice";
+    var searchTerm = Context.Request.Query["searchTerm"];
+}
+
+<span>
+    <h2>@ViewData["Title"]</h2>
+    <br />
+</span>
+
+<!-- Search Form -->
+<form method="get" class="form-inline mb-3">
+    <input type="text" name="searchTerm" value="@searchTerm" class="form-control" placeholder="Search by Party Name" style="width:280px; float:left;" />
+    <button type="submit" class="btn btn-outline-secondary" style="float:left; margin-left:10px">Search</button>
+    <a asp-action="Index" class="btn btn-outline-secondary" style="float:left; margin-left:10px">Clear</a>
+</form>
+<br/>
+<br/>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="name_asc" asp-route-searchTerm="@searchTerm" style="text-decoration:none;color:black;">
+                    Party Name
+                    <span class="sorting-icons" style="text-decoration:none;">
+                        <a asp-action="Index" asp-route-sortOrder="name_asc" asp-route-searchTerm="@searchTerm" title="Sort Ascending" style="text-decoration:none;">
+                            <span class="glyphicon glyphicon-sort-by-alphabet @((ViewBag.CurrentSort == "name_asc") ? "active" : "")">&#8593;</span> <!-- Up arrow for ascending sort -->
+                        </a>
+                        <a asp-action="Index" asp-route-sortOrder="name_desc" asp-route-searchTerm="@searchTerm" title="Sort Descending" style="text-decoration:none;">
+                            <span class="glyphicon glyphicon-sort-by-alphabet @((ViewBag.CurrentSort == "name_desc") ? "active" : "")">&#8595;</span> <!-- Down arrow for descending sort -->
+                        </a>
+                    </span>
+                </a>
+            </th>
+            <th>Created Date</th>
+            <th>Total Amount</th>
+            <th>Total Products</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var partyTotal in Model)
+        {
+            <tr>
+                <td>@partyTotal.Party?.PartyName</td>
+                <td>@partyTotal.CreatedAt</td>
+                <td>@partyTotal.TotalAmount</td>
+                <td>@partyTotal.TotalProducts</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    .sorting-icons {
+        display: inline-block;
+        margin-left: 10px; 
+    }
+
+    .active {
+        color: blue; 
+        font-weight: bold; 
+    }
+</style>

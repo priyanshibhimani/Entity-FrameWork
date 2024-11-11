@@ -1,0 +1,17 @@
+﻿@model ProductManagemet.Models.Party
+
+<h2>Create Party</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="PartyName"></label>
+        <input asp-for="PartyName" class="form-control" />
+        <span asp-validation-for="PartyName" class="text-danger"></span>
+    </div>
+    </br>
+    <button style="float:left" type="submit" class="btn btn-primary">Create</button>
+    
+</form>
+<a asp-action="Party" style="float:left;margin-left:10px;"><button class="btn btn-secondary">Cancel</button></a>
+
+

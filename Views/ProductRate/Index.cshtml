@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ProductManagemet.Models.ProductRate>
+
+<h1>ProductRate</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>ProductName</th>
+            <th>Product Description</th>
+            <th>ProductRate</th>
+            <th>NewRate</th>
+            <th>OldDate</th>
+            <th>UpdatedDate</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Product?.ProductName</td>
+                <td>@item.Product?.ProductDescription</td>
+                <td>@item.NewRate</td>
+                <td>@item.Product?.ProductRate</td>
+                <td>@item.Product?.CreatedAt</td>
+                <td>@item.UpdatedDate</td>
+            </tr>
+        }
+    </tbody>
+</table>

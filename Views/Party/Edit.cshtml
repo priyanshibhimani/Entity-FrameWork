@@ -1,0 +1,17 @@
+﻿@model ProductManagemet.Models.Party
+
+<h2>Edit Party</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="PartyId" />
+    <div class="form-group">
+        <label asp-for="PartyName"></label>
+        <input asp-for="PartyName" class="form-control" />
+        <span asp-validation-for="PartyName" class="text-danger"></span>
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-primary" style="float:left">Save</button>
+ 
+</form>
+<a asp-action="Party"><button class="btn btn-secondary" style="float:left;margin-left:10px;">Cancel</button></a>
+

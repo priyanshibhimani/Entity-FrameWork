@@ -1,0 +1,1192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ABC\\EF-Product-Management-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\invoice\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\invoice\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\invoice\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\invoice\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\partywiseproduct\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\partywiseproduct\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\servicecontracts\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:servicecontracts\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\controllers\\partywiseproductcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:controllers\\partywiseproductcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\partywiseproduct\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\partywiseproduct\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\services\\partywiseproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:services\\partywiseproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\partywiseproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\partywiseproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\productrate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\productrate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\services\\productrateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:services\\productrateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\services\\partytotalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:services\\partytotalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\services\\partyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:services\\partyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\controllers\\productratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:controllers\\productratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\controllers\\partytotalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:controllers\\partytotalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\controllers\\partycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:controllers\\partycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\enums\\userroleoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:enums\\userroleoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\party.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\party.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\partywiseproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\partywiseproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\invoice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\invoice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\servicecontracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:servicecontracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\party\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\party\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\servicecontracts\\ipartyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:servicecontracts\\ipartyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\party\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\party\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\party\\party.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\party\\party.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\productrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\productrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\productmanagemet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:productmanagemet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\partytotal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\partytotal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\migrations\\20241107041040_productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:migrations\\20241107041040_productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\migrations\\20241107040649_databaseadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:migrations\\20241107040649_databaseadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\partywiseinvoices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\partywiseinvoices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\partywiseinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\partywiseinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\partytotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\partytotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\invoiceentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\invoiceentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\partywiseproduct\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\partywiseproduct\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\party\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\party\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\party\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\party\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\invoice\\getinvoicesbyparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\invoice\\getinvoicesbyparty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\invoice\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\invoice\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\servicecontracts\\iproductrateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:servicecontracts\\iproductrateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\servicecontracts\\ipartytotalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:servicecontracts\\ipartytotalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\.nuget\\packages\\epplus\\7.4.2\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\migrations\\20241106161531_partytotalupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:migrations\\20241106161531_partytotalupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\migrations\\20241108143113_updatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:migrations\\20241108143113_updatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|d:\\abc\\ef-product-management-main\\migrations\\20241109195555_updateparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B979220E-6852-4477-9CCE-0F2C84A2C965}|ProductManagemet.csproj|solutionrelative:migrations\\20241109195555_updateparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoiceController.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T12:20:01.818Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IInvoiceService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\ServiceContracts\\IInvoiceService.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\IInvoiceService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\ServiceContracts\\IInvoiceService.cs",
+              "RelativeToolTip": "ServiceContracts\\IInvoiceService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:21:14.768Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\ServiceContracts\\IProductService.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\IProductService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\ServiceContracts\\IProductService.cs",
+              "RelativeToolTip": "ServiceContracts\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:22:50.729Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Services\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\InvoiceService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Services\\InvoiceService.cs",
+              "RelativeToolTip": "Services\\InvoiceService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv18AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:42:15.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Invoice\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Invoice\\Edit.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Invoice\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Invoice\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T13:04:58.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Invoice\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Invoice\\Create.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Invoice\\Create.cshtml",
+              "RelativeToolTip": "Views\\Invoice\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T18:57:48.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyWiseProduct\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartyWiseProduct\\Edit.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyWiseProduct\\Edit.cshtml",
+              "RelativeToolTip": "Views\\PartyWiseProduct\\Edit.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T07:02:00.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Models\\Invoice.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\Invoice.cs",
+              "RelativeToolTip": "Models\\Invoice.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T11:58:13.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PartyWiseProductContoller.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Controllers\\PartyWiseProductContoller.cs",
+              "RelativeDocumentMoniker": "Controllers\\PartyWiseProductContoller.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Controllers\\PartyWiseProductContoller.cs",
+              "RelativeToolTip": "Controllers\\PartyWiseProductContoller.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAuwJMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:29:59.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:48:02.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T10:35:00.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyWiseProduct\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartyWiseProduct\\Create.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyWiseProduct\\Create.cshtml",
+              "RelativeToolTip": "Views\\PartyWiseProduct\\Create.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBQAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T07:01:06.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PartyWiseProductService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Services\\PartyWiseProductService.cs",
+              "RelativeDocumentMoniker": "Services\\PartyWiseProductService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Services\\PartyWiseProductService.cs",
+              "RelativeToolTip": "Services\\PartyWiseProductService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwFYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:27:15.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PartyWiseProduct.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\PartyWiseProduct.cs",
+              "RelativeDocumentMoniker": "Models\\PartyWiseProduct.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\PartyWiseProduct.cs",
+              "RelativeToolTip": "Models\\PartyWiseProduct.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA9wBMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:05:59.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwIwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:16:05.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\ProductRate\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProductRate\\Index.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\ProductRate\\Index.cshtml",
+              "RelativeToolTip": "Views\\ProductRate\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T10:44:28.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAUwEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:18:15.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductRateService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Services\\ProductRateService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductRateService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Services\\ProductRateService.cs",
+              "RelativeToolTip": "Services\\ProductRateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T12:07:47.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PartyTotalService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Services\\PartyTotalService.cs",
+              "RelativeDocumentMoniker": "Services\\PartyTotalService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Services\\PartyTotalService.cs",
+              "RelativeToolTip": "Services\\PartyTotalService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwDYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:00:10.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PartyService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Services\\PartyService.cs",
+              "RelativeDocumentMoniker": "Services\\PartyService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Services\\PartyService.cs",
+              "RelativeToolTip": "Services\\PartyService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:10:47.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductRateController.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Controllers\\ProductRateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductRateController.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Controllers\\ProductRateController.cs",
+              "RelativeToolTip": "Controllers\\ProductRateController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:29:50.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PartyTotalController.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Controllers\\PartyTotalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PartyTotalController.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Controllers\\PartyTotalController.cs",
+              "RelativeToolTip": "Controllers\\PartyTotalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T05:04:49.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PartyController.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Controllers\\PartyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PartyController.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Controllers\\PartyController.cs",
+              "RelativeToolTip": "Controllers\\PartyController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:13:06.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T19:13:35.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:36:15.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T10:09:51.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRoleOptions.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Enums\\UserRoleOptions.cs",
+              "RelativeDocumentMoniker": "Enums\\UserRoleOptions.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Enums\\UserRoleOptions.cs",
+              "RelativeToolTip": "Enums\\UserRoleOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:24:48.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationRole.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\ApplicationRole.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationRole.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\ApplicationRole.cs",
+              "RelativeToolTip": "Models\\ApplicationRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:12:06.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Party.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\Party.cs",
+              "RelativeDocumentMoniker": "Models\\Party.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\Party.cs",
+              "RelativeToolTip": "Models\\Party.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:05:53.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:12:14.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T04:40:45.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "Models\\Register.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\Register.cs",
+              "RelativeToolTip": "Models\\Register.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T08:45:47.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyWiseProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartyWiseProduct\\Index.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyWiseProduct\\Index.cshtml",
+              "RelativeToolTip": "Views\\PartyWiseProduct\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T04:42:51.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Invoice\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Invoice\\Index.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Invoice\\Index.cshtml",
+              "RelativeToolTip": "Views\\Invoice\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T12:48:13.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T07:21:16.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20241109195555_UpdateParty.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Migrations\\20241109195555_UpdateParty.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241109195555_UpdateParty.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Migrations\\20241109195555_UpdateParty.cs",
+              "RelativeToolTip": "Migrations\\20241109195555_UpdateParty.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:55:55.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T10:17:23.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Party\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Party\\Edit.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Party\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Party\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T04:32:16.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T10:58:13.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IPartyService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\ServiceContracts\\IPartyService.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\IPartyService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\ServiceContracts\\IPartyService.cs",
+              "RelativeToolTip": "ServiceContracts\\IPartyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T10:28:31.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Party\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Party\\Details.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Party\\Details.cshtml",
+              "RelativeToolTip": "Views\\Party\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T04:32:15.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Party.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Party\\Party.cshtml",
+              "RelativeDocumentMoniker": "Views\\Party\\Party.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Party\\Party.cshtml",
+              "RelativeToolTip": "Views\\Party\\Party.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T11:20:20.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProductRate.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\ProductRate.cs",
+              "RelativeDocumentMoniker": "Models\\ProductRate.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\ProductRate.cs",
+              "RelativeToolTip": "Models\\ProductRate.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:54:53.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20241108143113_UpdateDatabase.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Migrations\\20241108143113_UpdateDatabase.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241108143113_UpdateDatabase.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Migrations\\20241108143113_UpdateDatabase.cs",
+              "RelativeToolTip": "Migrations\\20241108143113_UpdateDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:31:13.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T04:05:56.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T07:31:04.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProductManagemet.csproj",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\ProductManagemet.csproj",
+              "RelativeDocumentMoniker": "ProductManagemet.csproj",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\ProductManagemet.csproj",
+              "RelativeToolTip": "ProductManagemet.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-08T12:23:06.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyTotal\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartyTotal\\Index.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyTotal\\Index.cshtml",
+              "RelativeToolTip": "Views\\PartyTotal\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T05:05:11.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20241107041040_ProductManagement.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Migrations\\20241107041040_ProductManagement.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241107041040_ProductManagement.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Migrations\\20241107041040_ProductManagement.cs",
+              "RelativeToolTip": "Migrations\\20241107041040_ProductManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:10:40.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyWiseInvoices\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartyWiseInvoices\\Index.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyWiseInvoices\\Index.cshtml",
+              "RelativeToolTip": "Views\\PartyWiseInvoices\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T07:31:31.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20241107040649_Databaseadd.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Migrations\\20241107040649_Databaseadd.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241107040649_Databaseadd.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Migrations\\20241107040649_Databaseadd.cs",
+              "RelativeToolTip": "Migrations\\20241107040649_Databaseadd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:06:50.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PartyWiseInvoice.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\PartyWiseInvoice.cs",
+              "RelativeDocumentMoniker": "Models\\PartyWiseInvoice.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\PartyWiseInvoice.cs",
+              "RelativeToolTip": "Models\\PartyWiseInvoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:05:57.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "InvoiceEntry.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\InvoiceEntry.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceEntry.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\InvoiceEntry.cs",
+              "RelativeToolTip": "Models\\InvoiceEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:12:18.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PartyTotal.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\PartyTotal.cs",
+              "RelativeDocumentMoniker": "Models\\PartyTotal.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\PartyTotal.cs",
+              "RelativeToolTip": "Models\\PartyTotal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T05:03:02.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T07:30:51.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T10:17:10.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyWiseProduct\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\PartyWiseProduct\\Delete.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\PartyWiseProduct\\Delete.cshtml",
+              "RelativeToolTip": "Views\\PartyWiseProduct\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T07:01:30.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Party\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Party\\Delete.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Party\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Party\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T04:32:13.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Party\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Party\\Create.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Party\\Create.cshtml",
+              "RelativeToolTip": "Views\\Party\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T04:26:24.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAIBMwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T08:51:00.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T08:51:51.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GetInvoicesByParty.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Invoice\\GetInvoicesByParty.cshtml",
+              "RelativeDocumentMoniker": "Views\\Invoice\\GetInvoicesByParty.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Invoice\\GetInvoicesByParty.cshtml",
+              "RelativeToolTip": "Views\\Invoice\\GetInvoicesByParty.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T19:04:25.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Invoice\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Invoice\\Delete.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Invoice\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Invoice\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T12:56:48.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IProductRateService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\ServiceContracts\\IProductRateService.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\IProductRateService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\ServiceContracts\\IProductRateService.cs",
+              "RelativeToolTip": "ServiceContracts\\IProductRateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:00:24.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IPartyTotalService.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\ServiceContracts\\IPartyTotalService.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\IPartyTotalService.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\ServiceContracts\\IPartyTotalService.cs",
+              "RelativeToolTip": "ServiceContracts\\IPartyTotalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:00:18.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20241106161531_PartyTotalUpdate.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Migrations\\20241106161531_PartyTotalUpdate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241106161531_PartyTotalUpdate.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Migrations\\20241106161531_PartyTotalUpdate.cs",
+              "RelativeToolTip": "Migrations\\20241106161531_PartyTotalUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:15:32.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T04:19:50.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\DELL\\.nuget\\packages\\epplus\\7.4.2\\readme.txt",
+              "ToolTip": "C:\\Users\\DELL\\.nuget\\packages\\epplus\\7.4.2\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-04T05:32:05.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T04:41:13.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T04:41:12.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T04:40:26.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\ABC\\EF-Product-Management-main\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\ABC\\EF-Product-Management-main\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T08:58:56.54Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+﻿@model List<ProductManagemet.Models.Invoice>
+
+<form method="get" asp-action="GetInvoicesByParty">
+    <input type="hidden" name="partyId" value="@ViewBag.PartyId" />
+    <input type="text" name="searchTerm" value="@ViewBag.SearchTerm" placeholder="Search..." />
+    <input type="date" name="startDate" value="@ViewBag.StartDate?.ToString("yyyy-MM-dd")" />
+    <input type="date" name="endDate" value="@ViewBag.EndDate?.ToString("yyyy-MM-dd")" />
+    <button class="btn btn-secondary" type="submit">Search</button>
+    <a type="submit" class="btn btn-secondary" asp-route-PartyId="@ViewBag.PartyId" asp-action="GetInvoicesByParty">Clear</a>
+</form>
+
+<br/>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Party Name
+                <a asp-action="GetInvoicesByParty" asp-route-partyId="@ViewBag.PartyId" asp-route-sortOrder="partyName">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M320-440v-287L217-624l-57-56 200-200 200 200-57 56-103-103v287h-80ZM600-80 400-280l57-56 103 103v-287h80v287l103-103 57 56L600-80Z" /></svg>
+                </a>
+            </th>
+            <th>
+                Product Name
+                <a asp-action="GetInvoicesByParty" asp-route-partyId="@ViewBag.PartyId" asp-route-sortOrder="productName">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M320-440v-287L217-624l-57-56 200-200 200 200-57 56-103-103v287h-80ZM600-80 400-280l57-56 103 103v-287h80v287l103-103 57 56L600-80Z" /></svg>
+                </a>
+            </th>
+            <th>
+                Invoice ID
+                <a asp-action="GetInvoicesByParty" asp-route-partyId="@ViewBag.PartyId" asp-route-sortOrder="InvoiceId">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M320-440v-287L217-624l-57-56 200-200 200 200-57 56-103-103v287h-80ZM600-80 400-280l57-56 103 103v-287h80v287l103-103 57 56L600-80Z" /></svg>
+
+                </a>
+            </th>
+            <th>
+                Invoice Date
+                <a asp-action="GetInvoicesByParty" asp-route-partyId="@ViewBag.PartyId" asp-route-sortOrder="invoiceDate">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M320-440v-287L217-624l-57-56 200-200 200 200-57 56-103-103v287h-80ZM600-80 400-280l57-56 103 103v-287h80v287l103-103 57 56L600-80Z" /></svg>
+                </a>
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Total Amount
+                <a asp-action="GetInvoicesByParty" asp-route-partyId="@ViewBag.PartyId" asp-route-sortOrder="totalAmount">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M320-440v-287L217-624l-57-56 200-200 200 200-57 56-103-103v287h-80ZM600-80 400-280l57-56 103 103v-287h80v287l103-103 57 56L600-80Z" /></svg>
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var invoice in Model)
+        {
+            <tr>
+                <td>@invoice.Parties?.PartyName</td>
+                <td>@invoice.Product?.ProductName</td>
+                <td>@invoice.InvoiceId</td>
+                <td>@invoice.InvoiceDate.ToShortDateString()</td>
+                <td>@invoice.Quantity</td>
+                <td>@invoice.TotalAmount</td>
+            </tr>
+        }
+    </tbody>
+</table>

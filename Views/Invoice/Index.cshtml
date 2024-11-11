@@ -1,0 +1,56 @@
+﻿@model IEnumerable<ProductManagemet.Models.Invoice>
+@if (TempData["Error"] != null)
+
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Sorry!</strong> @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<h1>Invoices</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total Amount</th>
+            <th>Invoice Date</th>
+            <th>Action</th> 
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var invoice in Model)
+        {
+            <tr>
+                <td>@invoice.Product?.ProductName</td>
+                <td>@invoice.Quantity</td>
+                <td>@(invoice.Product?.ProductRate * invoice.Quantity)</td>
+                <td>@invoice.InvoiceDate.ToString("MM/dd/yyyy")</td> 
+                <td>
+                    <a asp-action="Edit" asp-route-id="@invoice.InvoiceId" asp-route-partyId="@invoice.PartyId" class="btn btn-outline-primary" style="float:left;">Edit</a>
+
+                    <form style="float:left;margin-left:10px;" asp-action="Delete" asp-route-id="@invoice.InvoiceId" asp-route-partyId="@invoice.PartyId" method="post">
+                        <button type="submit" class="btn btn-outline-danger">Delete</button>
+                    </form>
+            
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<div class="mt-3">
+    <a asp-action="Create" asp-controller="Invoice" asp-route-partyId="@ViewBag.PartyId" class="btn btn-primary">
+        Add Another Product
+    </a>
+</div>
+<br />
+<form method="post" asp-controller="Invoice" asp-action="GenerateTotal" asp-route-partyId="@Model.FirstOrDefault()?.PartyId" style="float:left;">
+    <button type="submit" class="btn btn-outline-dark">Generate Total</button>
+</form>
+<div>
+    <a asp-action="DownloadExcel" asp-route-partyId="@Model.FirstOrDefault()?.PartyId" class="btn btn-outline-secondary" style="float:left;margin-left:10px;">Download Excel</a>
+</div>
+<div>
+    <a asp-controller="Party" asp-action="Party"  class="btn btn-outline-secondary" style="float:left;margin-left:10px;">cancel</a>
+</div>

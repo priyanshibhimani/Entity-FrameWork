@@ -1,0 +1,91 @@
+﻿@model Register
+
+<main>
+    <div class="container">
+
+        <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+
+                        <div class="d-flex justify-content-center py-4">
+                            <h1>Register</h1>
+                        </div>
+
+                        <div class="card mb-3">
+
+                            <div class="card-body">
+
+                                <div class="pt-4 pb-2">
+                                    <h5 class="card-title text-center pb-0 fs-4">Create an Account</h5>
+                                    <p class="text-center small">Enter your personal details to create an account</p>
+                                </div>
+
+                                @if (!ViewData.ModelState.IsValid)
+                                {
+                                    <div class="alert alert-danger">
+                                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                        {
+                                            <p>@error.ErrorMessage</p>
+                                        }
+                                    </div>
+                                }
+
+                                <form class="row g-3" method="post" asp-controller="Account" asp-action="Register">
+                                    <div class="col-12">
+                                        <label class="form-label"><span style="color:red;">*</span>Email</label>
+                                        <input type="text" asp-for="Email" class="form-control" />
+                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label"><span style="color:red;">*</span>Person Name</label>
+                                        <input type="text" asp-for="PersonName" class="form-control" />
+                                        <span asp-validation-for="PersonName" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label"><span style="color:red;">*</span>Password</label>
+                                        <input type="password" asp-for="Password" class="form-control" />
+                                        <span asp-validation-for="Password" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label"><span style="color:red;">*</span>Confirm Password</label>
+                                        <input type="password" asp-for="ConfirmPassword" class="form-control" />
+                                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                                    </div>
+
+                                    <!-- User Role (Radio Buttons) -->
+                                    <div class="form-field flex">
+                                        <div class="w-25">
+                                            <label class="form-label">Role</label>
+                                        </div>
+                                        <div class="flex-1">
+                                            <div class="form-check-inline">
+                                                <input asp-for="UserType" id="User" type="radio" value="User" checked />
+                                                <label for="User">User</label>
+                                            </div>
+                                            <div class="form-check-inline">
+                                                <input asp-for="UserType" id="Admin" type="radio" value="Admin" />
+                                                <label for="Admin">Admin</label>
+                                            </div>
+                                            <span asp-validation-for="UserType" class="text-red"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100" type="submit">Create Account</button>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="small mb-0">Already have an account? <a asp-controller="Account" asp-action="Login">Log in</a></p>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+</main>

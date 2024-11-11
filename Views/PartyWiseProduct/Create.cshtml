@@ -1,0 +1,42 @@
+﻿@model ProductManagemet.Models.PartyWiseProduct
+
+<h1>Create Party Wise Product</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="PartyId"></label>
+         <select asp-for="PartyId" class="form-control" asp-items="@(new SelectList(ViewBag.Parties, "PartyId", "PartyName"))"></select>
+        <span asp-validation-for="PartyId" class="text-danger"></span>
+    </div>
+
+@*     <div class="form-group">
+        <label asp-for="ProductId"></label>
+         <select asp-for="ProductId" class="form-control" asp-items="@(new SelectList(ViewBag.Products, "ProductId", "ProductName"))"></select>
+        <span asp-validation-for="ProductId" class="text-danger"></span>
+    </div> *@
+    <div class="form-group">
+        <label asp-for="ProductId"></label>
+@*         <select asp-for="ProductId" class="form-control" asp-items="ViewBag.Products"></select>
+ *@
+        <select asp-for="ProductId" class="form-control" asp-items="@(new SelectList(ViewBag.Products, "Value", "Text"))"></select>
+ <span asp-validation-for="ProductId" class="text-danger"></span>
+    </div>
+
+
+    <br/>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}

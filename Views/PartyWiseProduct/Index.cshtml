@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ProductManagemet.Models.PartyWiseProduct>
+@if (TempData["Error"] != null)
+
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Sorry!</strong> @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<h1>Party Wise Products</h1>
+<br/>
+<a asp-action="Create" class="btn btn-outline-primary">Add New PartyWiseProduct</a>
+<br/>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Party</th>
+            <th>Product</th>
+            <th>Product Description</th>
+            <th>Product Rate</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Party?.PartyName</td>
+                <td>@item.Product?.ProductName</td>
+                <td>@item.Product?.ProductDescription</td>
+                <td>@item.Product?.ProductRate</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-Id="@item.Id" class="btn btn-outline-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,25 @@
+﻿@model List<ProductManagemet.Models.PartyWiseInvoice>
+
+<h2>Party Wise Invoices for Party @Model.FirstOrDefault()?.Parties?.PartyName</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Invoice ID</th>
+            <th>Invoice Date</th>
+            <th>Quantity</th>
+            <th>Total Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var partyWiseInvoice in Model)
+        {
+            <tr>
+                <td>@partyWiseInvoice.Invoices?.InvoiceId</td>
+                <td>@partyWiseInvoice.Invoices?.InvoiceDate.ToShortDateString()</td>
+                <td>@partyWiseInvoice.Invoices?.Quantity</td>
+                <td>@partyWiseInvoice.Invoices?.TotalAmount</td>
+            </tr>
+        }
+    </tbody>
+</table>

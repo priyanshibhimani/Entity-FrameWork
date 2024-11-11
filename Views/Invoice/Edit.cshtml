@@ -1,0 +1,53 @@
+﻿@model ProductManagemet.Models.Invoice
+
+<h1>Edit Invoice</h1>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="InvoiceId" />
+    <input type="hidden" asp-for="PartyId" />
+
+    <div class="form-group">
+        <label asp-for="ProductId"></label>
+        <select asp-for="ProductId" asp-items="@ViewBag.Products" class="form-control" id="productSelect"></select>
+
+        @* <select asp-for="ProductId" class="form-control" asp-items="@(new SelectList(ViewBag.Products, "ProductId", "Text"))">
+            <option value="">Select a product</option>
+        </select> *@
+
+</div>
+
+    <div class="form-group">
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" class="form-control" id="quantityInput" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TotalAmount"></label>
+        <input asp-for="TotalAmount" class="form-control" readonly />
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Index" asp-route-partyId="@Model.PartyId" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Assuming you have a way to get the product price based on selected product
+            var products = @Html.Raw(Json.Serialize(ViewBag.Products));
+
+            $('#quantityInput').on('input', function () {
+                var quantity = $(this).val();
+                var productId = $('#productSelect').val();
+                var product = products.find(p => p.Value == productId);
+
+                if (product && quantity) {
+                    var price = parseFloat(product.Price); // Assuming Price is available in the product object
+                    var totalAmount = price * quantity;
+                    $('input[name="TotalAmount"]').val(totalAmount.toFixed(2)); // Update the Total Amount field
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ProductManagemet.Models.Product>
+
+@{
+    ViewData["Title"] = "Product List";
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Sorry!</strong> @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<span>
+    <h2>@ViewData["Title"]</h2>
+    <br/>
+    <a asp-action="Create" class="btn btn-outline-primary">Add New Product</a>
+    <br/>
+</span>
+<br/>
+<form method="get">
+    <input type="text" name="searchTerm" value="@ViewBag.CurrentSearch" class="form-control" placeholder="Search by Product Name" style="width:280px;float:left;" />
+    <button type="submit" class="btn btn-outline-secondary" style="float:left;margin-left:10px">Search</button>
+    <a asp-controller="Product" asp-action="Index" class="btn btn-outline-secondary" style="float:left;margin-left:10px">clear</a>
+</form>
+<br/>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Product Name
+                <a asp-action="Index" asp-route-sortOrder="name_asc" asp-route-searchTerm="@ViewBag.CurrentSearch" style="text-decoration:none;">&#8593;</a>
+                <a asp-action="Index" asp-route-sortOrder="name_desc" asp-route-searchTerm="@ViewBag.CurrentSearch" style="text-decoration:none;">&#8595;</a>
+            </th>
+            <th>Product Description</th>
+            <th>Product Rate</th>
+            <th>Created At</th>
+            <th>Updated At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.ProductName</td>
+                <td>@product.ProductDescription</td>
+                <td>@product.ProductRate</td>
+                <td>@product.CreatedAt.ToShortDateString()</td>
+                <td>@product.UpdatedAt.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@product.ProductId" class="btn btn-outline-success">Details</a>
+                    <a asp-action="Edit" asp-route-id="@product.ProductId" class="btn btn-outline-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@product.ProductId" class="btn btn-outline-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
